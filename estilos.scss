@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    background-color: #141a35;
+    
+    .logo{
+        float: left;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 15px;
+        margin-top: 15px;
+        color: #f6f0ff;
+        margin-left: 120px;
+    }
+    .hide{
+        font-size: 30px;
+        padding: 15px;
+        background-color: #141a35;
+        color: #e2e2e2;
+        cursor: pointer;
+        display: none;
+    }
+    .navbar{
+        float: right;
+        text-align: center;
+        margin-top: 33px;
+        letter-spacing: 2px;
+        margin-right: 50px;
+        font-size: 25px;
+    }
+    .navbar-brand{
+        font-size: 30px;
+    }
+}
+
+main{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #a5cdff62;
+    background-image: url(assets/principal.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .cuerpo{
+        color: #e2e2e2;
+        text-align: center;
+        text-transform: uppercase;
+        width: 70%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 30px;
+        background-color: #a5cdff33;
+        margin-top: 50px;
+        float: left;
+    }
+    .cuerpo h2{
+        float: left;
+        font-size: 35px;
+        color: #f6f0ff;
+        background-color: #a5cdff00;
+    }   
+    .cuerpo p{
+        margin-top: 100px;
+        margin-left: 250px;
+    }
+    .cuerpo a{
+        background-color: #f6f0ff;
+        padding: 7px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #141a35;
+        box-shadow: 0 0 10px #f6f0ff;
+        margin-left: 700px;
+    }
+    .cuerpo a:hover{
+        color: #77777c;
+    }
+    .principal{
+        text-align: center;
+        background-color: #141a35;
+        color: #e2e2e2;
+    }
+}
+
+footer{
+    min-height: 120px;
+    width: 100%;
+    background-color: #141a35;
+    text-align: center;
+    font-size: 20px;
+    color: #e2e2e2;
+    padding: 30px;
+    position: relative;
+    
+    footer p{
+        margin-bottom: 10px;
+    }
+    footer i{
+        color: #a5cdff;
+        letter-spacing: 15px;
+    }
+    .redes{
+        font-size: 20px;
+    }
+    .wsp{
+        font-size: 50px;
+        color: #e2e2e2;
+        right: 10px;
+        bottom: 20px;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+    }
+}

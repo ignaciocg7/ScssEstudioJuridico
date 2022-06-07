@@ -1,0 +1,118 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  height: 120px;
+  width: 100%;
+  background-color: #141a35;
+}
+header .logo {
+  float: left;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 15px;
+  margin-top: 15px;
+  color: #f6f0ff;
+  margin-left: 120px;
+}
+header .hide {
+  font-size: 30px;
+  padding: 15px;
+  background-color: #141a35;
+  color: #e2e2e2;
+  cursor: pointer;
+  display: none;
+}
+header .navbar {
+  float: right;
+  text-align: center;
+  margin-top: 33px;
+  letter-spacing: 2px;
+  margin-right: 50px;
+  font-size: 25px;
+}
+header .navbar-brand {
+  font-size: 30px;
+}
+
+main {
+  height: calc(100vh - 80px);
+  width: 100%;
+  background-color: rgba(165, 205, 255, 0.3843137255);
+  background-image: url(assets/principal.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main .cuerpo {
+  color: #e2e2e2;
+  text-align: center;
+  text-transform: uppercase;
+  width: 70%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 30px;
+  background-color: rgba(165, 205, 255, 0.2);
+  margin-top: 50px;
+  float: left;
+}
+main .cuerpo h2 {
+  float: left;
+  font-size: 35px;
+  color: #f6f0ff;
+  background-color: rgba(165, 205, 255, 0);
+}
+main .cuerpo p {
+  margin-top: 100px;
+  margin-left: 250px;
+}
+main .cuerpo a {
+  background-color: #f6f0ff;
+  padding: 7px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #141a35;
+  box-shadow: 0 0 10px #f6f0ff;
+  margin-left: 700px;
+}
+main .cuerpo a:hover {
+  color: #77777c;
+}
+main .principal {
+  text-align: center;
+  background-color: #141a35;
+  color: #e2e2e2;
+}
+
+footer {
+  min-height: 120px;
+  width: 100%;
+  background-color: #141a35;
+  text-align: center;
+  font-size: 20px;
+  color: #e2e2e2;
+  padding: 30px;
+  position: relative;
+}
+footer footer p {
+  margin-bottom: 10px;
+}
+footer footer i {
+  color: #a5cdff;
+  letter-spacing: 15px;
+}
+footer .redes {
+  font-size: 20px;
+}
+footer .wsp {
+  font-size: 50px;
+  color: #e2e2e2;
+  right: 10px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+}
+
+/*# sourceMappingURL=estilos.css.map */
