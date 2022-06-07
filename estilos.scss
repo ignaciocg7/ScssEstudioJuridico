@@ -4,10 +4,23 @@
     box-sizing: border-box;
 }
 
+
+$color1: #9dcfff;
+$color2: #e9f1ff;
+$color3: #131a35;
+$color4: #76777c;
+$color5: #e2e2e2;
+$color6: #141a35;
+$color7: #f6f0ff;
+$color8: #a5cdff62;
+$color9: #a5cdff33;
+$color10: #a5cdff00;
+
+
 header{
     height: 120px;
     width: 100%;
-    background-color: #141a35;
+    background-color: $color6;
     
     .logo{
         float: left;
@@ -15,14 +28,14 @@ header{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding: 15px;
         margin-top: 15px;
-        color: #f6f0ff;
+        color: $color7;
         margin-left: 120px;
     }
     .hide{
         font-size: 30px;
         padding: 15px;
-        background-color: #141a35;
-        color: #e2e2e2;
+        background-color: $color6;
+        color: $color5;
         cursor: pointer;
         display: none;
     }
@@ -42,58 +55,58 @@ header{
 main{
     height: calc(100vh - 80px);
     width: 100%;
-    background-color: #a5cdff62;
+    background-color: $color8;
     background-image: url(assets/principal.jpg);
     background-size: cover;
     background-position: center;
 
     .cuerpo{
-        color: #e2e2e2;
+        color: $color5;
         text-align: center;
         text-transform: uppercase;
         width: 70%;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding: 30px;
-        background-color: #a5cdff33;
+        background-color: $color9;
         margin-top: 50px;
         float: left;
     }
     .cuerpo h2{
         float: left;
         font-size: 35px;
-        color: #f6f0ff;
-        background-color: #a5cdff00;
+        color: $color7;
+        background-color: $color10;
     }   
     .cuerpo p{
         margin-top: 100px;
         margin-left: 250px;
     }
     .cuerpo a{
-        background-color: #f6f0ff;
+        background-color: $color7;
         padding: 7px 20px;
         border-radius: 5px;
         text-decoration: none;
-        color: #141a35;
-        box-shadow: 0 0 10px #f6f0ff;
+        color: $color6;
+        box-shadow: 0 0 10px $color7;
         margin-left: 700px;
     }
     .cuerpo a:hover{
-        color: #77777c;
+        color: $color4;
     }
     .principal{
         text-align: center;
-        background-color: #141a35;
-        color: #e2e2e2;
+        background-color: $color6;
+        color: $color5;
     }
 }
 
 footer{
     min-height: 120px;
     width: 100%;
-    background-color: #141a35;
+    background-color: $color6;
     text-align: center;
     font-size: 20px;
-    color: #e2e2e2;
+    color: $color5;
     padding: 30px;
     position: relative;
     
@@ -101,7 +114,7 @@ footer{
         margin-bottom: 10px;
     }
     footer i{
-        color: #a5cdff;
+        color: $color1;
         letter-spacing: 15px;
     }
     .redes{
@@ -109,7 +122,7 @@ footer{
     }
     .wsp{
         font-size: 50px;
-        color: #e2e2e2;
+        color: $color5;
         right: 10px;
         bottom: 20px;
         width: 40px;

@@ -77,7 +77,7 @@ main .cuerpo a {
   margin-left: 700px;
 }
 main .cuerpo a:hover {
-  color: #77777c;
+  color: #76777c;
 }
 main .principal {
   text-align: center;
@@ -99,7 +99,7 @@ footer footer p {
   margin-bottom: 10px;
 }
 footer footer i {
-  color: #a5cdff;
+  color: #9dcfff;
   letter-spacing: 15px;
 }
 footer .redes {
